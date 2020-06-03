@@ -728,6 +728,9 @@ describe('lint-staged', () => {
 
     expect(console.printHistory()).toMatchInlineSnapshot(`
       "
+      WARN ‼ Using the shell option is unsafe and might lead to command injection!
+        This option will be replaced by the \`--unsafe-shell\` option in the next major version.
+        Use the \`--unsafe-shell-disable-warning\` option to disable this warning.
       LOG [STARTED] Preparing...
       LOG [SUCCESS] Preparing...
       LOG [STARTED] Running tasks...
